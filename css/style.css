@@ -1,0 +1,187 @@
+*{
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    display: flex;
+    justify-content: center;
+} */
+
+header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    margin-left: 45px;
+    margin-right: 45px;
+    padding: 5px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 15px;
+}
+
+.navbar{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+
+}
+
+
+.search{
+    display: flex;
+}
+
+.search li p{
+    cursor: pointer;
+}
+
+.search li:not(:last-child){
+    margin-right: 10px;
+}
+
+.barra{
+    display: flex;
+}
+
+.barra li:not(:last-child){
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid black;
+}
+
+.login{
+    display: flex;
+}
+
+.login li:not(:last-child){
+    margin-right: 20px;
+}
+
+.login li{
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.login li:hover{
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+ul{
+    list-style: none;
+}
+
+.redes #sites {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 40%;
+    left: 10px;
+}
+
+
+.barra li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.barra li a:hover{
+    font-size: 15px;
+}
+
+.redes #sites li{
+    margin-bottom: 20px;
+}
+
+.redes #sites img{
+    width: 20px;
+}
+
+input{
+    outline: none;
+}
+
+.hide{
+    display: none !important;
+}
+
+.produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+}
+
+#card{
+    display: flex;
+    width: 250px;
+    height: 400px;
+    background-color: cadetblue;
+    align-items: end;
+}
+
+#card:not(:last-child){
+    margin-right: 100px;
+}
+
+.produtos .title{
+    margin: 50px;
+}
+
+.describe{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: black;
+    height: 100px;
+}
+
+.describe p{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hiden{
+    display: none !important;
+}
+
+.entrar{
+    display: flex;
+}
+
+
+.register{
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    width: 600px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 3%;
+    border-radius: 2dvh;
+}
